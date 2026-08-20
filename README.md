@@ -79,3 +79,74 @@ The reason for using an absolute encoder over incremental (hall-effect pulse cou
 Stack in order: carousel on top, then gate layer, funnel, drawer at the bottom. Push each layer together — friction-fit holds them.
 
 The NEMA17 mounts below the carousel layer and drives the central shaft from underneath. The AS5600 encoder sits on a shaft extending from the underside of the carousel disc.
+
+# Medicine Dispenser Wiring
+
+## ESP32 → TMC2209
+
+| ESP32 | TMC2209 |
+|---|---|
+| STEP GPIO | STEP |
+| DIR GPIO | DIR |
+| ENABLE GPIO | EN/ENN |
+| UART TX/RX | PDN_UART |
+| 3.3V | VIO |
+| GND | GND |
+
+## TMC2209 → NEMA17 17HS3401
+
+| TMC2209 | NEMA17 |
+|---|---|
+| OA1 | Coil A |
+| OA2 | Coil A |
+| OB1 | Coil B |
+| OB2 | Coil B |
+
+## ESP32 → AS5600
+
+| ESP32 | AS5600 |
+|---|---|
+| 3.3V | VCC |
+| GND | GND |
+| SDA GPIO | SDA |
+| SCL GPIO | SCL |
+
+## ESP32 → MG995 #1 — Shutter
+
+| Connection | MG995 #1 |
+|---|---|
+| Servo GPIO | SIGNAL |
+| Servo Power | V+ |
+| Common GND | GND |
+
+## ESP32 → MG995 #2 — Slider Crank
+
+| Connection | MG995 #2 |
+|---|---|
+| Servo GPIO | SIGNAL |
+| Servo Power | V+ |
+| Common GND | GND |
+
+## Power
+
+| Source | Destination |
+|---|---|
+| USB-C Power Bank | Main Power Input |
+| Main Power | ESP32 |
+| Main Power | TMC2209 Motor Power |
+| Main Power | Servo Power Rail |
+| Servo Power Rail | MG995 #1 V+ |
+| Servo Power Rail | MG995 #2 V+ |
+| Common GND | ESP32 GND |
+| Common GND | TMC2209 GND |
+| Common GND | AS5600 GND |
+| Common GND | MG995 #1 GND |
+| Common GND | MG995 #2 GND |
+
+## AS5600 Physical Placement
+
+| Component | Position |
+|---|---|
+| Carousel Magnet | Directly above AS5600 |
+| AS5600 | Centered underneath magnet |
+| AS5600 PCB | Fixed beneath carousel |
