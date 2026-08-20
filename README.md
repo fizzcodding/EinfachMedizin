@@ -8,11 +8,11 @@ The problem it's built to solve is medication adherence. Specifically, patients 
 ---
 ## BOM
 This is the Bill of Materials (BOM) for the project.
-
-- stepper motor - NEMA17HS3401 - 1 piece = 9.75 USD 
-- Servo motor - TowerPro MG996R 180° - 2 piece = 3.65 USD*2 = 7.30 USD
-- stepper driver - TMC2209 - 1 piece = 6.7 USD
-- magnetic encoder - AS5600 - 1 piece = 2.5 USD
+#### ngl the prices in amazon is high, these are so cheap in my countries D:
+- stepper motor - NEMA17HS3401 - 1 piece = 42 USD - https://www.amazon.com/17HS3401-4-Lead-Stepper-Motor-42BYGH/dp/B0DKBV65SR?crid=3VSPGB6ZKSSDH&dib=eyJ2IjoiMSJ9.l8wL1VlsRmTlAxQUhtfiswNTrtBRZ8-cHb3huTAs-ZEiY_6EuQJTNKz2wd4-EVM-MwnJRA3vM_Ius-B-voanOzhY1G5SIk90WqfBnLOX7s1l6jQAjS5VjykAolrcXek4L4GiATX_3otySFJNcPy1BlmM37EL6b_UNAkfZHLSdWR5T2ezRc5xV_0yzcBKsWJ01dOR3rvntZt0XxTxvpNgI4_3zzlR-SnI8WVFC1Hyzbc.uevI8DroZoR_DQIuMIa8mJh7il_nZXWG35Rn_oZNmRI&dib_tag=se&keywords=nema%2B17hs3401&qid=1787200841&sprefix=NEMA17HS3401%2Caps%2C396&sr=8-4&th=1 
+- Servo motor - TowerPro MG996R 180° - 2 piece = 9.99 USD - https://www.amazon.com/AEDIKO-MG996R-Control-Digital-Helicopter/dp/B09BZ5955Z?crid=JJZ2OMQ88L9K&dib=eyJ2IjoiMSJ9.e8wsdUgAfahI3u10d93eBZhzZ0jNALZQKN1pfPkJZM7wCza7kheOgAwxo3ocWs5OHg6W_vI-BKdmFrD3novHo8MzPmpfqUz6ryhqMjMxkPQ.7WouFpAa-v1QPw3ukw95AM4rIHctVbUiZY2NrSY8hGE&dib_tag=se&keywords=TowerPro+MG996R&qid=1787200788&sprefix=towerpro+mg996r+%2Caps%2C405&sr=8-2
+- stepper driver - TMC2209 - 1 piece = 11 USD - https://www.amazon.com/TMC2209-Stepper-Continuous-Microstepping-Heatsink/dp/B0H6XVZR7Q?crid=2MPG4NXEHX15I&dib=eyJ2IjoiMSJ9.ELbHVQn-o8i1_o640QUgxa6ShPMXq5g0gXmC39FpOkovTXJDG-zmJT-g95VwiMiQcA16jH85fnq321t3x5cosJW8yvXxwvSfAs1sv9_plbodJsBT9q7n8DYIe-_kJTcSHq9Z7_sL4Vo5hEyUEI_2B9qB_BECXCDBkqYaDw9_PtjZg8eJ-ITvpiNixGjSUx00ftp32mqP5H8Z2e-QLNvPwol0NZLGOzBR1IT1G-FPrZc.oZYHkPXDltj3wOQ1td6gsKQGHSf_Vd-VPiA4fkhBt8s&dib_tag=se&keywords=tmc2209+stepper+driver&qid=1787200748&sprefix=TMC2209+%2Caps%2C401&sr=8-19
+- magnetic encoder - AS5600 - 1 piece = 6 USD - www.amazon.com/Magnetic-Encoder-Induction-Measurement-Precision/dp/B0GWWND79S?crid=10GXJ9I8UYX2V&dib=eyJ2IjoiMSJ9.sRkyQzCSLKrouEOa6e23GlldUhq7O8OW-pzImgFcGQcYi-3cP-rZLooNAZZhX93R-zH7nipYZ57iWoBm4-vS5dq8ARd9JFuVg5kdCizsGIStXFZo94Jmp27rA94WvTwAFOi4UVA2d6OzW-4mXF_CawcUCN73aMngRcCiI_M0cQYFNmXOzkwnRgHqHmfH2KCXZHmdaGWhuDXCnjbIurk7eHiSY9ximhOgFq8R-EimiBI.oWKwHE8aNsdnJryt8nzT2Q_5y3R_CQ3v39gIENoHxD0&dib_tag=se&keywords=as5600+magnetic+encoder&qid=1787200709&sprefix=as5600+magnetic+enco%2Caps%2C358&sr=8-14
 - 3d printing - 30 USD??? Not sure how much this is, but it's definitely not free.
 
 ---
