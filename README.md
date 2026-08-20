@@ -1,10 +1,19 @@
-# Medicine Dispenser — Mechanical Design
+# EinfachMedizin
 
 Autonomous medicine dispensing module. This repo covers the mechanical build only: CAD files, design decisions, and assembly. No firmware, no software.
 
 The machine holds up to 21 doses on a rotating carousel disc, indexes to the correct slot using a stepper motor and absolute encoder, and releases the dose through a servo-actuated gate into a collection drawer at the bottom. Dispense only happens after 3-way verification clears — that system isn't documented here.
 
 The problem it's built to solve is medication adherence. Specifically, patients who need the right pill at the right time and can't always rely on a caregiver being physically present to hand it to them.
+---
+## BOM
+This is the Bill of Materials (BOM) for the project.
+
+- stepper motor - NEMA17HS3401 - 1 piece = 9.75 USD 
+- Servo motor - TowerPro MG996R 180° - 2 piece = 3.65 USD*2 = 7.30 USD
+- stepper driver - TMC2209 - 1 piece = 6.7 USD
+- magnetic encoder - AS5600 - 1 piece = 2.5 USD
+- 3d printing - 30 USD??? Not sure how much this is, but it's definitely not free.
 
 ---
 
